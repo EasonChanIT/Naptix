@@ -1,0 +1,799 @@
+2022-03-21 02:20:14 Notice: Notice (1024): Undefined property: EmployeeTasksController::$ in /usr/local/var/www/team029-app_fit3048/src/Controller/EmployeeTasksController.php on line 111 in [/usr/local/var/www/team029-app_fit3048/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks
+Referer URL: http://localhost:8080/team029-app_fit3048/employee-tasks
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 111
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-03-21 02:20:23 Notice: Notice (1024): Undefined property: EmployeeTasksController::$ in /usr/local/var/www/team029-app_fit3048/src/Controller/EmployeeTasksController.php on line 111 in [/usr/local/var/www/team029-app_fit3048/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks
+Referer URL: http://localhost:8080/team029-app_fit3048/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 111
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:03 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=zEKBxW3nxwz%2FsaQ8SUxNmVb4tom8nI9MyUCzC08EJlMp8K9cEFK%2B8BTlSfJH%2BPHXMG%2FuwDRoNo0mJdqcDJLuBGaQjlplwEOEbsGC64X%2FuH34eYNvejRFahHFn2V1ZY%2FGI9B7kXLOye8CX4umVwwEvw%3D%3D&begin=&end=&employee_id=51&client_id=14&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:04 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=zEKBxW3nxwz%2FsaQ8SUxNmVb4tom8nI9MyUCzC08EJlMp8K9cEFK%2B8BTlSfJH%2BPHXMG%2FuwDRoNo0mJdqcDJLuBGaQjlplwEOEbsGC64X%2FuH34eYNvejRFahHFn2V1ZY%2FGI9B7kXLOye8CX4umVwwEvw%3D%3D&begin=&end=&employee_id=51&client_id=14&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:05 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:05 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:05 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:06 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:06 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:06 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:06 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:16 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:17 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:17 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:52 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 10:58:52 Notice: Notice (1024): Undefined property: EmployeeTasksController::$here in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 25 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=f3WkbdbolciXilXSfcXyCM%2F11K3de84kUlE1U2oNmOz0oZKkxufiUWMj6JW2GXRvNMy2tDdXFkuVEv80t528wA6rf7RRSfwV98zgz%2BQY%2BRVjaAU3Xz371cyUop2j0NNnVBba9oMvTFcG%2FNPSVDMkeQ%3D%3D&begin=&end=&employee_id=51&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 11:04:16 Notice: Notice (1024): Undefined property: EmployeeTasksController::$Url in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 27 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=Abda4mJJXX6dVpep5bMqzi1B2ds9N09zUdgYOcJRlnF0MYiTHEcqGHo8QgaSGEpqwRukzlono8Xr0AG7Azx0dgR3vc%2FJPyTTFXjtuQRUeEJg4Shd92H1SEwEuKp5cBsuTQlwZacuclLzK8GoOUOR9w%3D%3D&begin=&end=&employee_id=27&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 27
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-12 11:04:17 Notice: Notice (1024): Undefined property: EmployeeTasksController::$Url in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 27 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks?_csrfToken=y5Iw9CyMwMJlXeOAZ%2FTTBBt8MyVkyMBIak8%2FT3SZl886ks19xbgpJ7why%2FJcUpne2e36sYRavfIh9WutTfnpyvx8yeZLeN0ZI0UHR12r93lbdg8rQan09gKn%2FUSgjxgRixT5kWlkoebr3Z%2FX5z6PwA%3D%3D&begin=&end=&employee_id=51&client_id=13&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=Abda4mJJXX6dVpep5bMqzi1B2ds9N09zUdgYOcJRlnF0MYiTHEcqGHo8QgaSGEpqwRukzlono8Xr0AG7Azx0dgR3vc%2FJPyTTFXjtuQRUeEJg4Shd92H1SEwEuKp5cBsuTQlwZacuclLzK8GoOUOR9w%3D%3D&begin=&end=&employee_id=27&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::index() - APP/Controller/EmployeeTasksController.php, line 27
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-14 13:28:44 Notice: Notice (1024): Undefined property: EmployeeTasksController::$ in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 977 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks/pdf
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=Up%2Bu7jQ0s5S5h2pvL12D%2F132HItKjIZIKQwyWAK%2FXiMMHBmg3c8dzgnxdw9ieKFfJYiGHhXNtM%2B4%2BPW3VUGanCCmQAkD0Y3iZc8o6XPvsXkYNQI8N489GjQpKZm4%2BCz4PsRFbFdOmWcXuON4dqmG%2FQ%3D%3D&begin=&end=&employee_id=27&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::pdf() - APP/Controller/EmployeeTasksController.php, line 977
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-14 16:26:03 Notice: Notice (1024): Undefined property: EmployeeTasksController::$pdf in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 1004 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks/pdf/27/13/0/0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=K1XvaEHRURf8eTESbX22ue0miCXD5kX7UuMaX8zNXgBiXesBFXhHW%2Fit1lz5XGp5OH%2Fsv5EfgjTBMrQxIKR4H2VYG3RB8bik1R%2B8R%2FqFcspj2io7%2Bf09OVpo2zhwT3Ztz5jkP8xqUkEKT4nZ8nuwBg%3D%3D&begin=&end=&employee_id=27&client_id=13&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::pdf() - APP/Controller/EmployeeTasksController.php, line 1004
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-14 16:40:53 Notice: Notice (8): session_start(): Unexpected end of serialized data in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Http/Session.php, line 355]
+Request URL: /
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+session_start - [internal], line ??
+Cake\Http\Session::start() - CORE/src/Http/Session.php, line 355
+Cake\Http\Session::read() - CORE/src/Http/Session.php, line 440
+Authentication\Authenticator\SessionAuthenticator::authenticate() - ROOT/vendor/cakephp/authentication/src/Authenticator/SessionAuthenticator.php, line 57
+Authentication\AuthenticationService::authenticate() - ROOT/vendor/cakephp/authentication/src/AuthenticationService.php, line 183
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 105
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-14 16:42:28 Notice: Notice (8): session_start(): Unexpected end of serialized data in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Http/Session.php, line 355]
+Request URL: /
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+session_start - [internal], line ??
+Cake\Http\Session::start() - CORE/src/Http/Session.php, line 355
+Cake\Http\Session::read() - CORE/src/Http/Session.php, line 440
+Authentication\Authenticator\SessionAuthenticator::authenticate() - ROOT/vendor/cakephp/authentication/src/Authenticator/SessionAuthenticator.php, line 57
+Authentication\AuthenticationService::authenticate() - ROOT/vendor/cakephp/authentication/src/AuthenticationService.php, line 183
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 105
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-14 17:43:34 Notice: Notice (1024): Undefined property: EmployeeTasksController::$Clients in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 1052 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks/pdf?_csrfToken=eY64qWqok5T9dex98u%2F8UOAFMnq9mQKOT4YUj08E5fcBLm1HhGIWPYoj8ewrXeVF92x5GuDvSnyT6ePwC926nGRUxhveY%2FJN2DwGGIT6Nb9%2BvyTrejSGzjkbXX7hVScLvRbDjx5r3X3FXBx8g4t4Tg%3D%3D&begin=&end=&employee_id=27&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=eY64qWqok5T9dex98u%2F8UOAFMnq9mQKOT4YUj08E5fcBLm1HhGIWPYoj8ewrXeVF92x5GuDvSnyT6ePwC926nGRUxhveY%2FJN2DwGGIT6Nb9%2BvyTrejSGzjkbXX7hVScLvRbDjx5r3X3FXBx8g4t4Tg%3D%3D&begin=&end=&employee_id=27&client_id=38&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::pdf() - APP/Controller/EmployeeTasksController.php, line 1052
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-14 17:43:52 Notice: Notice (1024): Undefined property: EmployeeTasksController::$Clients in /usr/local/var/www/naptix_dev/src/Controller/EmployeeTasksController.php on line 1052 in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/Controller/Controller.php, line 321]
+Request URL: /employee-tasks/pdf?_csrfToken=eY64qWqok5T9dex98u%2F8UOAFMnq9mQKOT4YUj08E5fcBLm1HhGIWPYoj8ewrXeVF92x5GuDvSnyT6ePwC926nGRUxhveY%2FJN2DwGGIT6Nb9%2BvyTrejSGzjkbXX7hVScLvRbDjx5r3X3FXBx8g4t4Tg%3D%3D&begin=&end=&employee_id=27&client_id=38&task_id=&invoice_status=0&approval_status=0
+Referer URL: http://localhost:8080/naptix_dev/employee-tasks?_csrfToken=eY64qWqok5T9dex98u%2F8UOAFMnq9mQKOT4YUj08E5fcBLm1HhGIWPYoj8ewrXeVF92x5GuDvSnyT6ePwC926nGRUxhveY%2FJN2DwGGIT6Nb9%2BvyTrejSGzjkbXX7hVScLvRbDjx5r3X3FXBx8g4t4Tg%3D%3D&begin=&end=&employee_id=27&client_id=38&task_id=&invoice_status=0&approval_status=0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 321
+App\Controller\EmployeeTasksController::pdf() - APP/Controller/EmployeeTasksController.php, line 1052
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-23 01:40:32 Notice: Deprecated (8192): Cake\View\ViewBuilder implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php, line 37]
+Request URL: /employees/login?redirect=%2F
+Referer URL: http://localhost:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+include - CORE/src/View/ViewBuilder.php, line 37
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 571
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 428
+Cake\Controller\Controller::viewBuilder() - CORE/src/View/ViewVarsTrait.php, line 43
+App\Controller\EmployeesController::login() - APP/Controller/EmployeesController.php, line 164
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-23 01:40:43 Notice: Deprecated (8192): Cake\View\ViewBuilder implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php, line 37]
+Request URL: /employees/login?redirect=%2F
+Referer URL: http://localhost:8080/naptix_dev/employees/login?redirect=%2F
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+include - CORE/src/View/ViewBuilder.php, line 37
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 571
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 428
+Cake\Controller\Controller::viewBuilder() - CORE/src/View/ViewVarsTrait.php, line 43
+App\Controller\ErrorController::initialize() - APP/Controller/ErrorController.php, line 36
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 213
+Cake\Error\ExceptionRenderer::_getController() - CORE/src/Error/ExceptionRenderer.php, line 173
+Cake\Error\ExceptionRenderer::__construct() - CORE/src/Error/ExceptionRenderer.php, line 131
+Cake\Error\ErrorHandler::getRenderer() - CORE/src/Error/ErrorHandler.php, line 169
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 144
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 130
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2022-05-23 01:40:44 Notice: Deprecated (8192): Cake\View\ViewBuilder implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in [/usr/local/var/www/naptix_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php, line 37]
+Request URL: /employees/login?redirect=%2F
+Referer URL: http://localhost:8080/naptix_dev/employees/login?redirect=%2F
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+include - CORE/src/View/ViewBuilder.php, line 37
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 571
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 428
+Cake\Controller\Controller::viewBuilder() - CORE/src/View/ViewVarsTrait.php, line 43
+App\Controller\EmployeesController::login() - APP/Controller/EmployeesController.php, line 164
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+

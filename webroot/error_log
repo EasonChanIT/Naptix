@@ -1,0 +1,2 @@
+[15-Aug-2021 15:41:31 UTC] PHP Warning:  require(/home/u21s1029/team029-app_fit3048/vendor/autoload.php): failed to open stream: No such file or directory in /home/u21s1029/team029-app_fit3048/webroot/index.php on line 31
+[15-Aug-2021 15:41:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/u21s1029/team029-app_fit3048/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/u21s1029/team029-app_fit3048/webroot/index.php on line 31
